@@ -1,0 +1,15 @@
+body {
+
+background-color: aquamarine;
+}
+
+main {
+    width:40em
+    margin-inline:auto
+}
+
+main img {
+
+    width: 100%;
+    display:block;
+}
