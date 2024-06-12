@@ -1,9 +1,21 @@
 /* Load Google Font */
-@import url(@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&display=swap'););
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&display=swap');
 
 /* Diagnostic */
 * {
   outline: 1px solid peachpuff;
+}
+
+body {
+  background-color: #e5e5f7;
+  background-image:  linear-gradient(#da71ca70 2px, transparent 2px), linear-gradient(90deg, #da71ca70 2px, transparent 2px), linear-gradient(#da71ca 1px, transparent 1px), linear-gradient(90deg, #da71ca 1px, #e5e5f7 1px);
+background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
+background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+}
+
+article div {
+  background: white;
+  padding: 1em;
 }
 
 /* Style Tile with css variables */
@@ -28,11 +40,11 @@ main {
 
 article {
   /*  background image */
-  background-image: url(background-color: #e5e5f7;
+  /* background-image: url(background-color: #e5e5f7;
 opacity: 0.8;
 background-image:  linear-gradient(#da9ed0 2px, transparent 2px), linear-gradient(90deg, #da9ed0 2px, transparent 2px), linear-gradient(#da9ed0 1px, transparent 1px), linear-gradient(90deg, #da9ed0 1px, #e5e5f7 1px);
 background-size: 50px 50px, 50px 50px, 10px 10px, 10px 10px;
-background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;
+background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px; */
 }
 
 /* on hover left colum, no background image */
