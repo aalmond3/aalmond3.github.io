@@ -1,5 +1,6 @@
 /* Load Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap');
 
 /* Diagnostic */
 * {
@@ -29,12 +30,13 @@ article div {
 h1 {
   font-family: "Elsie", serif;
   font-weight: 900;
-  font-style: normal
+  font-style: normal;
+  text-align: center;
+  color: #da71ca;
 }
 main {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  
   font-family: var(--font1);
 }
 
@@ -51,7 +53,13 @@ background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px; */
 article:hover {
   background-image: none;
 }
- 
+p{
+  font-family: "Ysabeau Office", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: light;
+}
+
 h1, p {
   animation-name: fadeInUpBig;
   animation-duration: .5s;
@@ -107,6 +115,7 @@ p span {
   }
   
   article nav a {
+  
     display: block;
     margin: 1em 0 1em 0;
   }
